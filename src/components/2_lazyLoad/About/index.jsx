@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import Demo from "./components/2_lazyLoad";
 
-class App extends Component {
+export default class About extends Component {
     render() {
         return (
             <div>
-                <Demo/>
+                <h2>我是About 组件</h2>
             </div>
         );
     }
 }
 
-export default App;
